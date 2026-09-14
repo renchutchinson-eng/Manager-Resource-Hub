@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Documentation Quick Guide | Manager Resource Hub</title>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+
+:root{
+  --green:#007a4d;
+  --green-light:#eaf6f0;
+  --blue:#174f7e;
+  --blue-light:#eef5fa;
+  --navy:#1f3850;
+  --text:#26343e;
+  --muted:#687681;
+  --line:#dde5e8;
+  --bg:#f7f9f9;
+  --white:#fff;
+}
+
+body{
+  font-family:Arial,Helvetica,sans-serif;
+  color:var(--text);
+  background:var(--bg);
+  line-height:1.55;
+}
+
+header{
+  background:white;
+  border-bottom:1px solid var(--line);
+}
+
+.nav{
+  max-width:1100px;
+  margin:auto;
+  padding:17px 28px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.brand{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  font-weight:700;
+  color:var(--navy);
+}
+
+.brand-mark{
+  width:35px;
+  height:35px;
+  border-radius:8px;
+  background:linear-gradient(135deg,var(--green),var(--blue));
+  display:grid;
+  place-items:center;
+  color:white;
+  font-weight:800;
+}
+
+.back{
+  text-decoration:none;
+  color:var(--blue);
+  font-size:14px;
+  font-weight:700;
+}
+
+.hero{
+  background:linear-gradient(120deg,#f0f8f4,#f4f8fb);
+  border-bottom:1px solid var(--line);
+}
+
+.hero-inner{
+  max-width:1100px;
+  margin:auto;
+  padding:55px 28px;
+}
+
+.tag{
+  display:inline-block;
+  color:var(--green);
+  background:var(--green-light);
+  font-size:11px;
+  font-weight:700;
+  padding:6px 10px;
+  border-radius:15px;
+  margin-bottom:16px;
+}
+
+h1{
+  color:var(--navy);
+  font-size:39px;
+  line-height:1.15;
+  margin-bottom:13px;
+}
+
+.hero p{
+  color:var(--muted);
+  font-size:17px;
+  max-width:720px;
+}
+
+main{
+  max-width:1100px;
+  margin:auto;
+  padding:45px 28px 70px;
+  display:grid;
+  grid-template-columns:2fr .85fr;
+  gap:35px;
+}
+
+.card{
+  background:white;
+  border:1px solid var(--line);
+  border-radius:12px;
+  padding:28px;
+  margin-bottom:20px;
+}
+
+h2{
+  color:var(--navy);
+  font-size:22px;
+  margin-bottom:13px;
+}
+
+h3{
+  color:var(--navy);
+  font-size:16px;
+  margin-bottom:7px;
+}
+
+p{margin-bottom:12px}
+
+ul{
+  padding-left:20px;
+  margin-top:8px;
+}
+
+li{
+  margin-bottom:8px;
+}
+
+.good{
+  border-left:4px solid var(--green);
+  background:var(--green-light);
+  padding:18px;
+  border-radius:7px;
+  margin-top:17px;
+}
+
+.avoid{
+  border-left:4px solid #c98b32;
+  background:#fff8eb;
+  padding:18px;
+  border-radius:7px;
+  margin-top:17px;
+}
+
+.example{
+  background:var(--blue-light);
+  padding:18px;
+  border-radius:8px;
+  margin-top:13px;
+}
+
+.side-card{
+  background:white;
+  border:1px solid var(--line);
+  border-radius:12px;
+  padding:23px;
+  margin-bottom:18px;
+}
+
+.side-card h3{
+  margin-bottom:12px;
+}
+
+.step{
+  display:flex;
+  gap:12px;
+  margin-bottom:16px;
+}
+
+.number{
+  min-width:27px;
+  height:27px;
+  border-radius:50%;
+  background:var(--green);
+  color:white;
+  display:grid;
+  place-items:center;
+  font-size:12px;
+  font-weight:700;
+}
+
+.step-text{
+  font-size:13px;
+}
+
+.help{
+  background:var(--navy);
+  color:white;
+}
+
+.help h3{color:white}
+
+.help p{
+  color:#d9e7ec;
+  font-size:13px;
+}
+
+footer{
+  border-top:1px solid var(--line);
+  background:white;
+  padding:25px;
+  text-align:center;
+  color:var(--muted);
+  font-size:12px;
+}
+
+@media(max-width:800px){
+  main{grid-template-columns:1fr}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="nav">
+
+<div class="brand">
+<div class="brand-mark">M</div>
+Manager Resource Hub
+</div>
+
+<a class="back" href="index.html">← Back to Resource Hub</a>
+
+</div>
+</header>
+
+<div class="hero">
+<div class="hero-inner">
+
+<div class="tag">MANAGE PERFORMANCE</div>
+
+<h1>Documentation Quick Guide</h1>
+
+<p>
+A practical guide to help managers create clear, objective and useful
+records of employee and performance matters.
+</p>
+
+</div>
+</div>
+
+<main>
+
+<div>
+
+<div class="card">
+
+<h2>Why documentation matters</h2>
+
+<p>
+Good documentation creates a clear record of what occurred, what was
+discussed and what actions were agreed. It supports consistency,
+follow-through and fair decision-making.
+</p>
+
+<div class="good">
+
+<h3>Good documentation is:</h3>
+
+<ul>
+<li><strong>Factual</strong> — record what was observed, said or confirmed.</li>
+<li><strong>Specific</strong> — include relevant dates, events and examples.</li>
+<li><strong>Objective</strong> — avoid assumptions, labels and emotional language.</li>
+<li><strong>Timely</strong> — document matters while the information is still clear.</li>
+<li><strong>Relevant</strong> — capture information connected to the issue being managed.</li>
+</ul>
+
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h2>What should I capture?</h2>
+
+<ul>
+<li>Date and time of the incident or conversation.</li>
+<li>The specific behaviour, event or performance concern.</li>
+<li>The expected standard or requirement.</li>
+<li>Relevant facts or examples discussed.</li>
+<li>The employee's response or explanation.</li>
+<li>Any guidance, support or expectations communicated.</li>
+<li>Actions agreed and the expected follow-up date.</li>
+</ul>
+
+</div>
+
+
+<div class="card">
+
+<h2>Write what you know — not what you assume</h2>
+
+<p>
+Describe observable facts rather than interpreting someone's intention
+or character.
+</p>
+
+<div class="avoid">
+
+<h3>Instead of:</h3>
+
+<p>
+“Jordan clearly doesn't care about being on time and has a bad attitude.”
+</p>
+
+</div>
+
+<div class="example">
+
+<h3>Write:</h3>
+
+<p>
+“Jordan arrived after the scheduled start time on 3, 7 and 12 September.
+During our discussion on 12 September, I reviewed the expected start time
+and asked Jordan whether there were circumstances affecting attendance.”
+</p>
+
+</div>
+
+</div>
+
+
+<div class="card">
+
+<h2>After the conversation</h2>
+
+<p>
+Before closing your record, check that another person could read it later
+and understand:
+</p>
+
+<ul>
+<li>What happened?</li>
+<li>What standard was expected?</li>
+<li>What did the employee say?</li>
+<li>What did the manager do?</li>
+<li>What happens next?</li>
+</ul>
+
+</div>
+
+</div>
+
+
+<aside>
+
+<div class="side-card">
+
+<h3>Quick documentation check</h3>
+
+<div class="step">
+<div class="number">1</div>
+<div class="step-text"><strong>Facts</strong><br>What actually occurred?</div>
+</div>
+
+<div class="step">
+<div class="number">2</div>
+<div class="step-text"><strong>Impact</strong><br>Why does the matter need to be addressed?</div>
+</div>
+
+<div class="step">
+<div class="number">3</div>
+<div class="step-text"><strong>Conversation</strong><br>What was discussed?</div>
+</div>
+
+<div class="step">
+<div class="number">4</div>
+<div class="step-text"><strong>Action</strong><br>What was agreed or communicated?</div>
+</div>
+
+<div class="step">
+<div class="number">5</div>
+<div class="step-text"><strong>Follow-up</strong><br>When will progress be reviewed?</div>
+</div>
+
+</div>
+
+
+<div class="side-card help">
+
+<h3>Not sure what to do?</h3>
+
+<p>
+Some situations require additional support. Contact People & Culture
+where the appropriate action is unclear, the matter may require formal
+intervention, or there is significant employee, safety or business risk.
+</p>
+
+</div>
+
+</aside>
+
+</main>
+
+<footer>
+Manager Resource Hub • Working Prototype • People & Culture
+</footer>
+
+</body>
+</html>
