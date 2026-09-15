@@ -357,7 +357,79 @@ h2{
   font-weight:700;
   cursor:pointer;
 }
+.help-section{
+  max-width:1100px;
+  margin:40px auto;
+  padding:0 20px;
+}
 
+.help-box{
+  background:#f4f8f6;
+  border:1px solid var(--line);
+  border-radius:14px;
+  padding:28px 30px;
+  display:grid;
+  grid-template-columns:1.4fr 1fr;
+  gap:40px;
+  align-items:center;
+}
+
+.help-label{
+  display:block;
+  color:var(--green);
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:1px;
+  margin-bottom:8px;
+}
+
+.help-box h2{
+  color:var(--navy);
+  margin-bottom:8px;
+}
+
+.help-box p{
+  color:var(--muted);
+  font-size:13px;
+}
+
+.help-actions{
+  border-left:1px solid var(--line);
+  padding-left:28px;
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+
+.help-actions strong{
+  color:var(--navy);
+}
+
+.help-actions span{
+  color:var(--muted);
+  font-size:13px;
+}
+
+.help-actions a{
+  color:var(--green);
+  font-weight:700;
+  font-size:13px;
+  text-decoration:none;
+  margin-top:5px;
+}
+
+@media(max-width:800px){
+  .help-box{
+    grid-template-columns:1fr;
+  }
+
+  .help-actions{
+    border-left:none;
+    padding-left:0;
+    border-top:1px solid var(--line);
+    padding-top:20px;
+  }
+}
 .ai-section{
   background:linear-gradient(120deg,var(--navy),#245f76);
   color:white;
@@ -663,7 +735,25 @@ Choose a pathway to quickly find the support you need.
 </div>
 </div>
 </div>
+<section class="help-section">
+  <div class="help-box">
+    <div>
+      <span class="help-label">NEED MORE SUPPORT?</span>
+      <h2>Know when to ask for help.</h2>
+      <p>
+        Some situations require additional guidance. If the issue involves employee relations,
+        health and safety, policy interpretation, or a decision outside your authority,
+        connect with the appropriate support team before proceeding.
+      </p>
+    </div>
 
+    <div class="help-actions">
+      <strong>Not sure what to do next?</strong>
+      <span>Use the Manager Assistant to find relevant guidance or identify when specialist support may be needed.</span>
+      <a href="#assistant">Ask the Manager Assistant →</a>
+    </div>
+  </div>
+</section>
 <section id="assistant">
 
 <div class="ai-section">
